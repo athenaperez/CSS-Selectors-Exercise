@@ -1,0 +1,88 @@
+/*****************************
+GENERAL STYLES
+*****************************/
+
+header {
+	border: solid black 1px;
+}
+
+
+
+/******************************
+NAVIGATION
+*****************************/
+
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	text-decoration: none;
+}
+
+nav li {
+	display: inline-block;
+	width: 12%
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+
+/******************************
+CLASS CSS
+*****************************/
+
+
+.disabled {
+	color: grey;
+}
+
+a.disabled {
+	color: purple;
+}
+
+.active {
+	yellow;
+}
+
+.promo {
+	font-weight: bold;
+	color: gold;
+}
+
+
+/******************************
+SIBLINGS AND CHILDREN CSS
+*****************************/
+
+#color-red {
+	color: red;
+}
+
+#color-blue {
+	color: blue;
+}
+
+#color-red + h4 {
+	background-color: red;
+}
+
+#color-blue + h4 {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: solid black 1px;
+	border-radius: 50%;
+}
+
+input {
+	font-size: 25px;
+}
